@@ -1,0 +1,139 @@
+/* Header Container */
+.header {
+  background: linear-gradient(45deg, #003580, #001f40); /* Add a gradient background for a sleek look */
+  color: #fff;
+  padding: 50px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the header container */
+}
+
+/* Header Title */
+.headerTitle {
+  font-size: 30px; /* Increase font size for the title */
+  font-weight: 700; /* Use a bolder font weight */
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* Header Description */
+.headerDesc {
+  margin-bottom: 30px; /* Increase spacing for the description */
+  font-size: 20px; /* Increase font size for the description */
+  text-align: center;
+}
+
+/* Header List */
+.headerList {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  animation: fadeIn 1s ease;
+  justify-content: center; /* Center-align the list items */
+}
+
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600; /* Use a slightly bolder font weight */
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px; /* Increase border-radius for rounded buttons */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.headerListItem.active {
+  background-color: #febb02; /* Use a different color for active items */
+  color: #003580;
+  transform: scale(1.05); /* Add a subtle scale effect on hover */
+}
+
+.headerListItem.active:hover {
+  background-color: #ffca3e; /* Change background color on hover */
+  color: #001f40;
+  transform: scale(1.1); /* Slightly increase scale on hover */
+} 
+
+
+/* Header Button */
+.headerBtn {
+  background-color: #febb02;
+  color: #003580;
+  font-weight: 600;
+  border: none;
+  padding: 12px 24px; /* Increase padding for the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 5px;
+  text-transform: uppercase;
+  height: 35px;
+  
+}
+.headerBtnContainer {
+  display: flex;
+  justify-content: center; /* Center-align the button */
+}
+
+.headerBtn:hover {
+  background-color: #003580;
+  color: #febb02;
+  transform: scale(1.05);
+}
+
+/* Header Search */
+.headerSearch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Header Search Item */
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 10px; /* Increase border-radius for search items */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.headerSearchItem:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Header Search Input */
+.headerSearchInput {
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white; /* Set the text color to white */
+  font-size: 16px;
+  width: 200px;
+  padding: 8px;
+}
+
+/* Header Search Text */
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.headerSearchText:hover {
+  color: white;
+}
+.headerSearchItem::placeholder {
+  color: #fff;
+}
+.headerSearchInput::placeholder {
+  color: #fff; /* Set the color to white */
+}
