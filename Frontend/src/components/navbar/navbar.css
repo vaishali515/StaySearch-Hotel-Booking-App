@@ -1,0 +1,82 @@
+
+.navbar {
+  height: 100px;
+  background:   #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.navContainer {
+  max-width: 1200px;
+  color: #fff; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/*
+.logo {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: auto;
+}
+*/
+/* Logo Styles */
+.logo {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(45deg, #003580, #001f40); /* Gradient background */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow */
+  font-family: 'Merriweather', serif;
+
+}
+
+
+
+.navButton {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 30px;
+  background-color: #001f40 ;
+  color: #fff;
+  box-shadow:0px 0px 5px gray
+}
+
+
+.navButton:hover {
+  background-color: #fff; 
+  color: #FF6B6B; 
+}
+
+.navButton:hover {
+  transform: scale(1.05);
+}
+
+
+.navbar {
+  background:  #fff;
+}
+
+.navItems {
+   
+  display: flex;
+  align-items: center;
+}
+
